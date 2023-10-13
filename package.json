@@ -1,6 +1,6 @@
 {
 	"name": "@vdegenne/links",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "lib/index.js",
 	"module": "lib/index.js",
 	"type": "module",
@@ -27,6 +27,7 @@
 		}
 	},
 	"devDependencies": {
+		"@changesets/cli": "^2.26.2",
 		"typescript": "^5.2.2",
 		"wireit": "^0.14.0"
 	},
