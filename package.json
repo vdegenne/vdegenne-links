@@ -1,0 +1,36 @@
+{
+	"name": "@vdegenne/links",
+	"version": "1.0.0",
+	"main": "lib/index.js",
+	"module": "lib/index.js",
+	"type": "module",
+	"author": "Valentin Degenne <vdegenne@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vdegenne/vdegenne-links.git"
+	},
+	"scripts": {
+		"build": "wireit"
+	},
+	"wireit": {
+		"build": {
+			"command": "tsc --pretty",
+			"clean": "if-file-deleted",
+			"files": [
+				"tsconfig.json",
+				"src/**/*.ts"
+			],
+			"output": [
+				"lib"
+			]
+		}
+	},
+	"devDependencies": {
+		"typescript": "^5.2.2",
+		"wireit": "^0.14.0"
+	},
+	"files": [
+		"lib"
+	]
+}
