@@ -51,7 +51,7 @@ export function gooUrl(input: string) {
 		input
 	)}/m0u/`;
 }
-export function goo(input: string) {
+export function gooOpen(input: string) {
 	open(gooUrl(input));
 }
 
